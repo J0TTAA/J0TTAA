@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Página</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<style>
+  
+  .page-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-bottom: 3px solid #0056b3; 
+  }
+
+  .mi-pagina {
+    font-size: 1.2rem; 
+  }
+
+  .galeria {
+    text-align: center; 
+    margin-top: 20px; 
+  }
+
+  
+  footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%; 
+    margin: auto; 
+  }
+
+  .footer-text {
+    float: left;
+  }
+
+  .footer-text.right {
+    float: right; 
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="page-header">
+        <h1 class="mi-pagina mb-0">Mi Página</h1> <!-- Texto "Mi Página" en el mismo tamaño que el título -->
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <div class="galeria">
+        <h2>Galería de Fotos</h2> 
+        <p>Elige una seccion para ver mas imagenes</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row mt-5">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="img/buho.png" class="card-img-top" alt="Buho">
+        <div class="card-body">
+          <p class="card-text">Buhos</p>
+          <p>'Sabias que...? Aun grupo de buhos se le llama "parlamento"</p>
+          <a href="#" class="btn btn-primary">Ver más</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="img/atardecer.png" class="card-img-top" alt="Atardecer">
+        <div class="card-body">
+          <p class="card-text">Atardeceres</p>
+          <p>Hermosos y dañinos a la vista</p>
+          <a href="#" class="btn btn-primary">Ver más</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="img/gato.png" class="card-img-top" alt="Atardecer">
+        <div class="card-body">
+          <p class="card-text">Gatos</p>
+          <p>Los unicos animales que se domesticaron solos probablemente</p>
+          <a href="#" class="btn btn-primary">Ver más</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<footer class="bg-dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 footer-text">
+        <p>Sobre Nosotros</p> 
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat.</p>
+      </div>
+      <div class="col-md-6 footer-text right">
+        <p>Agradecimientos</p> 
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
