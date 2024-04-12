@@ -1,0 +1,30 @@
+.characters-container {
+    display: flex; /* Establece el contenedor como un flex container */
+    justify-content: space-between; /* Distribuye los elementos de forma equitativa a lo largo del eje principal */
+  }
+  
+  .character {
+    width: 45%; /* Ancho de cada personaje */
+  }
+  
+  .character-image {
+    text-align: center; /* Centra la imagen */
+    
+  }
+
+.health-bar {
+    width: 200px; /* Ancho de la barra de vida */
+    height: 20px; /* Altura de la barra de vida */
+    border: 1px solid #000; /* Borde de la barra de vida */
+    margin-bottom: 10px; /* Espacio entre barras de vida */
+ 
+}
+
+.health-bar-inner {
+    height: 100%; /* Altura máxima de la barra de vida */
+    background-color: green; /* Color de la barra de vida */
+}
+
+#hero-container, #enemy-container {
+    margin-bottom: 20px; /* Espacio entre contenedores de personajes */
+}
